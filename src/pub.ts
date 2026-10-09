@@ -1,4 +1,4 @@
-import type { PubSession } from "./contracts";
+import type { PubSession } from "./contracts.js";
 
 export interface PubAdmission {
   permitted: boolean;
