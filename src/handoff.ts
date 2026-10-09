@@ -1,4 +1,4 @@
-import type { AdmissionDecision, HandoffOffer } from "./contracts";
+import type { AdmissionDecision, HandoffOffer } from "./contracts.js";
 
 export function mayRecordArrival(offer: HandoffOffer, decision: AdmissionDecision): boolean {
   return offer.sourceCity !== offer.destinationCity &&
