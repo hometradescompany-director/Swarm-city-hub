@@ -1,4 +1,4 @@
-import type { CoherenceClaim, FailureCode, Standing } from "./contracts";
+import type { CoherenceClaim, FailureCode, Standing } from "./contracts.js";
 
 export interface BreathalyzerResult {
   coherent: boolean;
